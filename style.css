@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+
+.nav-link {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+a:hover {
+    color: red;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+
+    transition: 4s ease-in-out;
+    animation-name: but;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes but {
+    0% {
+        border-right: 2px solid red;
+        font-family: 'Comic Neue', cursive;
+        font-weight: 500;
+    }
+
+    30% {
+        border-left: 2px solid gold;
+
+        font-family: 'Pacifico', cursive;
+        font-weight: 500;
+
+    }
+
+    50% {
+        border-top: 2px solid darkblue;
+        font-family: 'Comic Neue', cursive;
+        font-weight: 500;
+
+    }
+
+    75% {
+        border-bottom: 2px double red;
+        font-family: 'Pacifico', cursive;
+        font-weight: 500;
+    }
+
+    100% {
+        border-right: 4px solid gray;
+        border-top: 4px solid gray;
+        border-left: 4px solid gray;
+        border-bottom: 4px solid #e9ecef;
+        font-family: 'Prompt', sans-serif;
+        border-radius: 15px;
+        font-weight: 500;
+
+
+    }
+}
+
+body {
+    padding: 25px;
+    background-color: yellow;
+    color: black;
+    font-size: 22px;
+}
+
+.color-mode {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    border-radius: 25px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+}
+
+
+.button span {
+    cursor: pointer;
+    outline-color: none;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.button:hover {
+
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+
+
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.button:hover span {
+    padding-right: 20px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.text-center {
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+    color: darkblue;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+h1 {
+
+    animation: name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+@keyframes name {
+    0% {
+        color: black;
+        box-shadow: 0 0 3px black;
+        transition: all 2s;
+    }
+
+    50% {
+        color: deeppink;
+    }
+
+    100% {
+        color: teal;
+    }
+}
+
+h4 {
+    color: black;
+    font-weight: 500;
+}
+
+p {
+    font-size: 28px;
+    color: red;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+#text {
+    box-shadow: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* about me*/
+
+.col-md-12 {
+    text-align: center;
+
+}
+
+#abt {
+    color: deeppink;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    animation: 10s zoomIn infinite;
+    box-shadow: 0 0 10px grey;
+    padding: 6px;
+}
+
+/* about me pic*/
+
+
+.slide-up {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+    opacity: 0.8;
+    cursor: pointer;
+    line-height: 180%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*skills*/
+#skills {
+    color: deeppink;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 0 10px black;
+    padding: 18px;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 0 0 10px grey;
+    animation: 10s zoomIn infinite;
+    letter-spacing: 2px;
+
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    color: teal;
+    font-size: 22px;
+    margin-bottom: 10px;
+    animation: 6s flash;
+    letter-spacing: 2px;
+}
+
+
+h5:hover {
+    color: black;
+}
+
+.col-md-12 {
+    margin-top: 25px;
+
+}
+
+marquee {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+    letter-spacing: 3px;
+}
+
+marquee:hover {
+    color: black;
+}
+
+mar .col-md-12 p:hover {
+    color: black;
+}
+
+
+#contact {
+    text-align: center;
+    color: deeppink;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 0 10px black;
+    padding: 12px;
+    margin-bottom: 12px;
+    animation: 10s zoomIn infinite;
+
+}
+
+.col-md-6 p {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+
+.social-icons {
+
+    margin: auto;
+
+}
+
+
+/* coloring font-awesome icons*/
+i.fas,
+i.fab {
+    color: darkblue;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: gray;
+
+    text-align: center;
+    margin-top: 3px;
+    padding: 4px;
+}
+
+.footer p {
+    color: black;
+
+}
+
+.float-right i.fas {
+    color: black;
+    box-shadow: 0 0 10px grey;
+
+}

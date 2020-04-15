@@ -12,9 +12,8 @@ html {
 
 .nav-link {
     margin-top: 15px;
-    margin-left: 5px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 8px;
     text-align: center;
     margin-bottom: 12px;
 
@@ -22,8 +21,8 @@ html {
 
 a {
     color: black;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 a:hover {
@@ -82,10 +81,10 @@ a:hover {
 }
 
 body {
-    padding: 25px;
+    padding: 20px;
     background-color: yellow;
     color: black;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .color-mode {
@@ -100,11 +99,11 @@ body {
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
-    padding: 20px;
+    padding: 16px;
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin: 4px;
     outline: none;
 }
 
@@ -255,6 +254,7 @@ p {
 
 .container:hover .overlay {
     height: 100%;
+
 }
 
 .text {
@@ -302,6 +302,18 @@ h5:hover {
 
 .col-md-12 {
     margin-top: 25px;
+
+}
+
+/* project*/
+#project img {
+    width: 500px;
+}
+
+#project {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
 
 }
 

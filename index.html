@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/shailu.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -20,7 +22,6 @@
 <body>
 
     <div class="container-fluid">
-      
         <nav class="navbar navbar-expand-sm navbar-bg navbar-light">
             <a href="#" class="navbar-brand">
 
@@ -45,7 +46,6 @@
                     <li class="nav-item">
                         <a href="#project" class="nav-link">PROJECT</a>
                     </li>
-
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">CONTACT</a>
                     </li>
@@ -60,22 +60,19 @@
                 <h1 style="font-size:45px">I'm Shailaja Sabhapathi</h1>
                 <h2 class="5s animated heartBeat ">A freelance,</h2>
                 <p class="animated zoomInRight delay-1s"> WEB DESIGNER.</p>
-                <button class="button" onclick="myFunction()"><span>click me </span></button>
+                <button class="button" data-toggle="tooltip" title="bg color changes!" onclick="myFunction()"><span>click me </span></button>
                 <a href="#abt"><button class="button"><span>know me </span></button></a>
 
             </div>
         </div>
 
+
         <p id="text" class="text-center"> Trying to make my Niche in The world of Designing </p>
-
-
         <div class="row">
             <div class="col-md-12">
                 <h4 id="abt" class="mb-5">About Me</h4>
             </div>
-
         </div>
-
         <div class="container slide-up">
             <img src="img/IMG_20200325_131104.jpg" alt="mypic" class="image">
             <div class="overlay">
@@ -90,19 +87,26 @@
                     <br>
                     email:shailaja.sabhapathi@gmail.com
 
-
                 </div>
             </div>
         </div>
         <h4 id="skills" class="mb-5">SKILLS</h4>
         <div class="SKILLS">
             <h5>Html5</h5>
-
             <div class="progress mb-4">
                 <div class="progress-bar progress-bar-striped  progress-bar-info active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
                     85%
                 </div>
             </div>
+
+            <h5>Bootstrap</h5>
+            <div class="progress mb-4">
+
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    80%
+                </div>
+            </div>
+
 
             <h5>Wordpress</h5>
             <div class="progress mb-4">
@@ -134,64 +138,57 @@
 
             <div class="col-md-12 mt-5">
                 <marquee width="60%" direction="left" height="100px">
-                    Projects yet to be updated.
+                    Sample Projects.
                 </marquee>
-            </div>
 
-        </div><div class="row" id="project">
+            </div>
+            <div class="row" id="project">
                 <div class="col-md-12 col-sm-12 mb-5">
                     <img src="img/med-web.png" alt="medical website">
-                    <a href="https://shailaja-sabhapathi.github.io/Medical-Web/">Sample-1</a>
+                    <a href="https://shailaja-sabhapathi.github.io/Medical-Web/" target="_blank" class="ml-5" data-toggle="tooltip" title="medical website!">Sample-1</a>
                 </div>
                 <div class="col-md-12 col-sm-12">
-                    <img src="img/landing-page.png" alt="medical website">
-                    <a href="https://shailaja-sabhapathi.github.io/Landing-Page">Sample-2</a>
+                    <img src="img/landing-page.png" alt="landing page">
+                    <a href="https://shailaja-sabhapathi.github.io/Landing-Page" target="_blank" class="ml-5" data-toggle="tooltip" title="landing page!">Sample-2</a>
                 </div>
                 <div class="col-md-12 col-sm-12">
-                    <img src="img/biz-page.png" alt="business website">
-                    <a href="https://shailaja-sabhapathi.github.io/BS-Web">Sample-3</a>
+                    <img src="img/biz-page.png" alt="business website" target="_blank">
+                    <a href="https://shailaja-sabhapathi.github.io/BS-Web" class="ml-5" data-toggle="tooltip" title="business website!">Sample-3</a>
                 </div>
                 <div class="col-md-12 col-sm-12 mb-5 mt-5">
-                    <img src="img/portfolio.png" alt="portfolio website">
-                    <a href="https://shailaja-sabhapathi.8b.io/Home.html">Sample-4</a>
+                    <img src="img/portfolio.png" alt="portfolio website" target="_blank">
+                    <a href="https://shailaja-sabhapathi.8b.io/Home.html" class="ml-5" data-toggle="tooltip" title="portfolio website!">Sample-4</a>
+                </div>
+                <div class="col-md-12 col-sm-12 mb-5 mt-5">
+                    <img src="img/job-portal.png" alt="portfolio website" target="_blank">
+                    <a href="https://shailaja-sabhapathi.github.io/job-portal/" class="ml-5" data-toggle="tooltip" title="job portal!">Sample-5</a>
                 </div>
             </div>
-
-
-            </div>
-
+        </div>
         <h4 id="contact">CONTACT</h4>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row text-center cntct">
+            <div class="col-md-11">
                 <P>
-                    Let's Work Together
+                    Let's Work Together,Have a project you'd like to discuss? Get in touch
                 </P>
-                <p>
-                    Have a project you'd like to discuss?
-                </p>
-                <p>Get in touch</p>
-            </div>
-            <div class="col-md-3 social-icons">
-                <a href="https://www.instagram.com/shailu_sabhapathi/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i>On Instagram</a>
-            </div>
-            <br>
-            <div class="col-md-5 social-icons">
-                <a href="mailto:shailaja.sabhapathi@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i>shailaja.sabhapathigmail.com</a>
 
+            </div>
+            <div class="container">
+                <a href="https://www.instagram.com/shailu_sabhapathi/" data-toggle="tooltip" title="Instagram!" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>|
+                <a href="mailto:shailaja.sabhapathi@gmail.com" data-toggle="tooltip" title="E-mail!" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>|
+                <a href="https://github.com/shailaja-sabhapathi" data-toggle="tooltip" title="Github!" target="_blank"><i class="fab fa-github fa-2x"></i></a>|
+                <a href="tel:+918125721838" data-toggle="tooltip" title="Mobile!" target="_blank"><i class="fas fa-mobile fa-2x"></i></a>
+                <span><a href="index.html"> <i class="fas fa-angle-double-up fa-2x float-right"></i></a></span>
             </div>
         </div>
 
-        <div class="row float-right">
-            <a href="index.html"> <i class="fas fa-angle-double-up fa-2x"></i></a>
-        </div>
-        <br>
-        <br>
+
+        <!-- footer -->
+
         <footer class="footer">
-
             <p style="font-size:2vw;">
-                &copy; 2020, Designed by Shailaja. All Rights Reserved.
+                &copy; 2020, Designed by <span class="name">Shailaja,</span> All Rights Reserved.
             </p>
-
         </footer>
     </div>
 
@@ -245,6 +242,13 @@
         });
 
     </script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+    </script>
+
 
 </body>
 

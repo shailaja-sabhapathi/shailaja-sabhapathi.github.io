@@ -306,6 +306,16 @@ h5:hover {
 }
 
 /* project*/
+
+.col-md-12 img {
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.col-md-12 img:hover {
+    transform: scale(1.3);
+}
+
 #project img {
     width: 300px;
 }
@@ -345,6 +355,10 @@ mar .col-md-12 p:hover {
 
 }
 
+.cntct {
+    margin-bottom: 16px;
+}
+
 .col-md-6 p {
     color: black;
     font-family: 'Libre Baskerville', serif;
@@ -360,11 +374,6 @@ mar .col-md-12 p:hover {
 
 
 /* coloring font-awesome icons*/
-i.fas,
-i.fab {
-    color: darkblue;
-
-}
 
 .social-icons a {
     text-decoration: none;
@@ -372,19 +381,59 @@ i.fab {
 
 .footer {
     background-color: gray;
-
     text-align: center;
-    margin-top: 3px;
-    padding: 4px;
 }
 
 .footer p {
     color: black;
+}
+
+.name {
+    color: red;
+}
+
+.footer p:hover {
+    background-color: black;
+    color: white;
 
 }
 
-.float-right i.fas {
-    color: black;
-    box-shadow: 0 0 10px grey;
+.fas,
+.fab {
+    margin: 10px;
 
+}
+
+.fa-envelope {
+    color: green;
+}
+
+.fa-envelope:hover {
+    color: indigo;
+}
+
+
+.fa-instagram-square {
+    color: purple;
+}
+
+.fa-instagram-square:hover {
+    color: deeppink;
+}
+
+.fa-github {
+    color: #AD5C51;
+}
+
+.fa-github:hover {
+    color: #211F1F;
+}
+
+.fa-mobile {
+    color: darkmagenta;
+
+}
+
+.fa-mobile:hover {
+    color: darkblue;
 }
